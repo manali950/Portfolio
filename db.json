@@ -1,0 +1,84 @@
+{
+  "profiles": [
+    {
+      "id": 1,
+      "profileName": "Grow your business",
+      "profileDesignation": "To Emerge As A World Class Institution For Providing Affordable And Equivalent Software Services And Facilities To All Sections Of Society. I Aspire To Become A Respected Name In Academics, Research And Innovation In Field Of Software.",
+      "profileImg": "assets/images/user.jpg",
+      "skill1": "UI/UX Design and Development",
+      "skill2": "BackEnd Development ",
+      "skill3": "Mobile App Design ",
+      "skill4": "Art, Logo, SVG & Illustration ",
+      "skill5": "Branding Design and Identity",
+      "skill6": "Amimation Videos"
+    }
+  ],
+  "contacts": [
+    {
+      "contactName": "Shivam pathak",
+      "contactEmail": "smartmanshivam@gmail.com",
+      "contactSubject": "helo",
+      "contactMessage": "asd",
+      "id": 3
+    },
+    {
+      "contactName": "Shivam pathak",
+      "contactEmail": "cse.shivam.pathak@gmail.com",
+      "contactSubject": "helo",
+      "contactMessage": "asdasd",
+      "id": 4
+    },
+    {
+      "contactName": "Shivam pathak",
+      "contactEmail": "smartmanshivam@gmail.com",
+      "contactSubject": "helo",
+      "contactMessage": "sadkjad",
+      "id": 5
+    },
+    {
+      "contactName": "CP sharma",
+      "contactEmail": "cp@lijap.com",
+      "contactSubject": "Diwali holiday ",
+      "contactMessage": "helo",
+      "id": 6
+    }
+  ],
+  "socialInfo": [
+    {
+      "id": 1,
+      "socialName": "Er.shivam pathak ",
+      "socialDesignation": "Software Engineer",
+      "socialEmail": "shivamp@hcl.com",
+      "socialPhone": "09889347062",
+      "socialAddress": "#301, Kuber Complex, Gwalior 474001, IND.",
+      "socialSelfIntro": "I love Graphic design and solving a problem and have been working on my portfolio since 2019. I Can give your business a new Creative start right away!",
+      "socialLinkedin": "https://www.linkedin.com/in/shivam-pathak-707656193/",
+      "socialfb": "https://www.facebook.com/shivampathakapplet",
+      "socialtw": "https://twitter.com/meshivampathak"
+    }
+  ],
+  "skillsInfo": [
+    {
+      "id": 3,
+      "skillAbout": "I Specialize in Branding and Strategy, and am passionate about To Provide And Serve All Sections Of Society With Equality Through Outstanding Software Services, Compassion And Transparency And To Create Affordable Software Solution. And I always ready to impress the audience with my Creativity, CV attached below ",
+      "skill1": "C , HTML , CSS , JS , JQUERY ,SQL ",
+      "skillRange1": "100",
+      "skill2": "REACT (incl Hooks,Router,Redux) & PHP (CI,Laravel) -(MVC FrameWork) ",
+      "skillRange2": "86",
+      "skill3": "OPPS , DBMS , OS , DATA STRUCTURE. ",
+      "skillRange3": "72",
+      "skill4": "Basic Java ",
+      "skillRange4": "57"
+    }
+  ],
+  "vcData": [
+    {
+      "id": 2,
+      "cardName": "Er.Shivam pathak 2",
+      "cardDesignation": "software",
+      "cardSkill": "C , HTML , CSS , JS , JQUERY ,SQL",
+      "cardEmail": "smartmanshivam@gmail.com",
+      "cardPhone": "09889347062"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+export const GET_PROFILES = "GET_PROFILES";
+export const GET_PROFILE = "GET_PROFILE";
+export const DELETE_PROFILE = "DELETE_PROFILE";
+export const GET_CONTACTS = "GET_CONTACTS";
+export const GET_SOCILALINK = "GET_SOCILALINK";
+export const GET_SOCIAL= "GET_SOCIAL";
+export const GET_SKILLSETS = "GET_SKILLSETS";
+export const GET_SKILLSET = "GET_SKILLSET";
+export const GET_VSDATAS = "GET_VSDATAS";
+export const GET_VSDATA = "GET_VSDATA";

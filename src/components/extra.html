@@ -1,0 +1,203 @@
+<!-- Google fonts -->
+<link href="http://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&amp;display=swap" rel="stylesheet">
+<!-- Template CSS -->
+<link rel="stylesheet" href="assets/css/style-liberty.css">
+<!-- ***********HOME Footer Script Start**********-->
+
+<!-- jQuery and Bootstrap JS -->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+
+<!-- owlcarousel -->
+<script src="assets/js/owl.carousel.js"></script>
+
+<!-- Home FeedBack-->
+<script>
+  $(document).ready(function () {
+        $("#owl-demo1").owlCarousel({
+          loop: true,
+          nav: false,
+          responsiveClass: true,
+          responsive: {
+            0: {
+              items: 1,
+              nav: false
+            },
+            736: {
+              items: 1,
+              nav: false
+            }
+          }
+        })
+      })
+</script>
+<!-- Home FeedBack-->
+
+
+<!-- script for portfolio slider -->
+<script>
+  $(document).ready(function () {
+    $("#owl-portfolio").owlCarousel({
+      loop: true,
+      margin: 20,
+      nav: false,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false
+        },
+        568: {
+          items: 2,
+          nav: false
+        },
+        1080: {
+          items: 3,
+          nav: false
+        }
+      }
+    })
+  })
+</script>
+<!-- //script for portfolio slider -->
+
+<!-- script for featured posts blog slider -->
+<script>
+  $(document).ready(function () {
+    $('.owl-testimonial').owlCarousel({
+      loop: true,
+      margin: 0,
+      nav: true,
+      responsiveClass: true,
+      autoplay: false,
+      autoplayTimeout: 5000,
+      autoplaySpeed: 1000,
+      autoplayHoverPause: false,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false
+        },
+        480: {
+          items: 1,
+          nav: false
+        },
+        667: {
+          items: 1,
+          nav: false
+        },
+        1000: {
+          items: 1,
+          nav: false
+        }
+      }
+    })
+  })
+</script>
+<!-- //script for featured posts blog slider -->
+
+<!-- script for banner typing text -->
+<script>
+  function autoType(elementClass, typingSpeed) {
+    var thhis = $(elementClass);
+    thhis.css({
+      "position": "relative",
+      "display": "inline-block"
+    });
+    thhis.prepend('<div class="cursor" style="right: initial; left:0;"></div>');
+    thhis = thhis.find(".text-js");
+    var text = thhis.text().trim().split('');
+    var amntOfChars = text.length;
+    var newString = "";
+    thhis.text("|");
+    setTimeout(function () {
+      thhis.css("opacity", 1);
+      thhis.prev().removeAttr("style");
+      thhis.text("");
+      for (var i = 0; i < amntOfChars; i++) {
+        (function (i, char) {
+          setTimeout(function () {
+            newString += char;
+            thhis.text(newString);
+          }, i * typingSpeed);
+        })(i + 1, text[i]);
+      }
+    }, 1500);
+  }
+
+  $(document).ready(function () {
+    // Now to start autoTyping just call the autoType function with the 
+    // class of outer div
+    // The second paramter is the speed between each letter is typed.   
+    autoType(".type-js", 200);
+  });
+</script>
+<!-- //script for banner typing text -->
+
+
+<!-- disable body scroll which navbar is in active -->
+<script>
+  $(function () {
+    $('.navbar-toggler').click(function () {
+      $('body').toggleClass('noscroll');
+    })
+  });
+</script>
+<!-- disable body scroll which navbar is in active -->
+
+<!-- MENU-JS -->
+<script>
+  $(window).on("scroll", function () {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 80) {
+      $("#site-header").addClass("nav-fixed");
+    } else {
+      $("#site-header").removeClass("nav-fixed");
+    }
+  });
+
+  //Main navigation Active Class Add Remove
+  $(".navbar-toggler").on("click", function () {
+    $("header").toggleClass("active");
+  });
+  $(document).on("ready", function () {
+    if ($(window).width() > 991) {
+      $("header").removeClass("active");
+    }
+    $(window).on("resize", function () {
+      if ($(window).width() > 991) {
+        $("header").removeClass("active");
+      }
+    });
+  });
+</script>
+<!-- //MENU-JS -->
+
+<!-- bootstrap -->
+<script src="assets/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+<!-- ***********HOME Footer Script End**********-->
+
+
+<!-- ***********Admin Footer Script Start**********-->
+
+<!-- jQuery -->
+<script src="../../plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- SlimScroll -->
+<script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="../../plugins/fastclick/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="../../dist/js/demo.js"></script>
+
+<!-- ***********Admin Footer Script End**********-->
